@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class test4 {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> ln=new HashMap();
+		ln.put(10,"srj");
+		ln.put(20,"kkr");
+		ln.put(7,"kks");
+		ln.put(4,"srk");
+		ln.put(5,"sss");
+		
+		System.out.println(ln);
+		//System.out.println();
+		
+		/* System.out.println(ln.poll());
+		   System.out.println(ln.poll());
+		   System.out.println(ln.poll());
+		   System.out.println(ln.poll());
+		   System.out.println(ln.poll()); */
+		
+		
+		/*Iterator<String> i=ln.iterator();
+	    while(i.hasNext())
+		{
+			System.out.print(i.next()+", ");
+		}*/
+	}
+
+}

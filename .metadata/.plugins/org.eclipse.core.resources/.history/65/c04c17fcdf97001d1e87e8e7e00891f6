@@ -1,0 +1,18 @@
+import java.util.*;
+public class test4 {
+
+	public static void main(String[] args) {
+		TreeSet<String> ln=new TreeSet();
+		ln.add("Srj");
+		ln.add("30");
+		ln.add("Srk");
+		ln.add("Ntr");
+		
+		Iterator<String> i=ln.iterator();
+	    while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+	}
+
+}

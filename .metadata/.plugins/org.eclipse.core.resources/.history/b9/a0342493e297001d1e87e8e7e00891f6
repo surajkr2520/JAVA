@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class test4 {
+
+	public static void main(String[] args) {
+		PriorityQueue<String> ln=new PriorityQueue();
+		ln.add("1");
+		ln.add("2");
+		ln.add("7");
+		ln.add("4");
+		ln.add("5");
+		
+		ln.remove();
+		ln.poll();
+		
+		Iterator<String> i=ln.iterator();
+	    while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+	}
+
+}

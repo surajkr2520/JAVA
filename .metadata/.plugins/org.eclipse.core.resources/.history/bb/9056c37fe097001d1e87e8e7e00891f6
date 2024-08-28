@@ -1,0 +1,19 @@
+import java.util.*;
+public class test4 {
+
+	public static void main(String[] args) {
+		HashSet<String> ln=new HashSet();
+		ln.add("A");
+		ln.add("E");
+		ln.add("I");
+		ln.add("O");
+		ln.add("U");
+		
+		Iterator<String> i=ln.iterator();
+	    while(i.hasNext())
+		{
+			System.out.println(i.next());
+		}
+	}
+
+}
