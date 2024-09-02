@@ -2,11 +2,12 @@ public class AvgofArray {
   public static void main(String[] args) {
     int[] arr = { 2, 5, 1, 4 };
     int n = arr.length;
-    int sum = 0;
+    double sum = 0;
     for (int i = 0; i < arr.length; i++) {
-      sum += arr[i];
+      sum += (double)arr[i];
 
     }
-    System.out.println(sum / n);
+    double result = sum/n;
+    System.out.println(result);
   }
 }
