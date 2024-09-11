@@ -19,4 +19,4 @@ public class reverseArray {
     int arr2[] = { 3, 2, 6, 1, 8 };
     reverse(arr2, n);
   }
-}
+
