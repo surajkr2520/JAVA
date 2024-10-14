@@ -35,7 +35,7 @@ public class p7 {
 			int m = maxMatch(str,arr[i]);
 			mp.put(arr[i],m);
 		}
-		System.out.println("Best rhyming word is"+Collections.max(mp.entrySet(), Map.Entry.comparingByValue()).getKey());
+		System.out.println("Best rhyming word is: "+Collections.max(mp.entrySet(), Map.Entry.comparingByValue()).getKey());
 
 	}
 
