@@ -48,24 +48,20 @@ public class d2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        // Input the size of the array
         int N = sc.nextInt();
         
-        // Input the elements of the array
         int[] Arr = new int[N];
         for (int i = 0; i < N; i++) {
             Arr[i] = sc.nextInt();
         }
         
-        // Initialize count to 1, because the first element is always counted
         int count = 1;
-        int max = Arr[0];  // The first element is the initial max
+        int max = Arr[0]; 
         
-        // Loop through the array starting from the second element
         for (int i = 1; i < N; i++) {
             if (Arr[i] > max) {
                 count++;
-                max = Arr[i];  // Update max to the current element
+                max = Arr[i];
             }
         }
         
