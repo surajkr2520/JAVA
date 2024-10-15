@@ -19,32 +19,26 @@ public class d3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input the number of balloons
         int N = sc.nextInt();
-        sc.nextLine(); // Consume the newline after reading the integer
+        sc.nextLine(); 
 
-        // Input the balloon colors
         String[] balloons = new String[N];
         for (int i = 0; i < N; i++) {
             balloons[i] = sc.nextLine();
         }
 
-        // Flag to check if we found an odd frequency balloon
         boolean foundOdd = false;
 
-        // Iterate over the array to check the frequency of each balloon color
         for (int i = 0; i < N; i++) {
             String currentColor = balloons[i];
             int count = 0;
 
-            // Count how many times currentColor appears in the array
             for (int j = 0; j < N; j++) {
                 if (balloons[j].equals(currentColor)) {
                     count++;
                 }
             }
 
-            // If the count is odd, print the current color and exit
             if (count % 2 != 0) {
                 System.out.println(currentColor);
                 foundOdd = true;
@@ -52,7 +46,6 @@ public class d3 {
             }
         }
 
-        // If no balloon color appears an odd number of times
         if (!foundOdd) {
             System.out.println("All are even");
         }
