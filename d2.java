@@ -69,7 +69,7 @@ public class d2 {
             }
         }
         
-        // Output the result
+
         System.out.println(count);
     }
 }
