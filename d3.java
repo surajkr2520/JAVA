@@ -14,6 +14,7 @@
 //
 //r -> [r,g,b,b,g,y,y]  -> “r” colour balloon is present odd number of times in the bunch.
 import java.util.Scanner;
+import java.util.*;
 public class d3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
