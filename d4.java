@@ -1,6 +1,5 @@
 
 import java.util.*;
-import java.util.Collections;
 public class d4{
   static char maxOccur(String str)
   {
